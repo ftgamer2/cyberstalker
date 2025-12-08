@@ -1,50 +1,14 @@
-```markdown
-# 🔍 FT OSINT Tool - Instagram Intelligence Suite
+🔍 FT OSINT Tool - Advanced Instagram Intelligence Suite
 
-**Advanced Instagram OSINT tool with cyberpunk aesthetics, built for Android/Termux. Combines Toutatis, Instaloader, and custom scrapers for maximum data extraction.**
+A cyberpunk-themed OSINT tool for Android/Termux that combines:
+• Toutatis for phone/email extraction
+• Instaloader for profile metadata  
+• Custom scrapers for enhanced data
+• Beautiful HTML reports with dark theme
+• Encrypted credential storage
+• Phone number tracking & analysis
 
----
-
-## 🌟 **Key Features**
-
-### 📱 **Multi-Source Data Collection**
-- **Toutatis Integration** - Extract emails, phone numbers, and hidden data
-- **Instaloader Engine** - Comprehensive profile metadata
-- **Custom Scrapers** - Enhanced data collection algorithms
-
-### 🎨 **Cyberpunk Interface**
-- Neon-colored terminal with emojis and animations
-- Beautiful HTML reports with dark theme
-- Loading animations and progress indicators
-
-### 🔒 **Security & Privacy**
-- AES-256 encrypted credential storage
-- Local session management
-- No data sent to external servers
-
-### 📊 **Advanced Reporting**
-- Professional HTML reports with cyberpunk theme
-- Profile picture downloading
-- Data quality analysis
-- Export to multiple formats
-
----
-
-## 🚀 **Quick Installation (Termux)**
-
-```bash
-# Update packages
-pkg update && pkg upgrade
-
-# Install Python
-pkg install python -y
-
-# Install dependencies
-pip install requests cryptography phonenumbers instaloader
-
-# Run the tool
-python ft_osint.py
-```
+Perfect for security researchers, pentesters, and OSINT enthusiasts.
 
 ---
 
@@ -190,7 +154,6 @@ Need Help?
 
 1. Check the Issues section
 2. Read the troubleshooting guide
-3. Join our Telegram group
 
 Found a Bug?
 
@@ -219,8 +182,7 @@ MIT License - See LICENSE file for details.
 
 🌐 Connect With Us
 
-https://img.shields.io/badge/GitHub-Repo-black?style=flat&logo=github
-https://img.shields.io/badge/Telegram-Channel-blue?style=flat&logo=telegram
+noobgamingv40@gmail.com
 
 ⭐ Star this repo if you find it useful!
 
@@ -234,22 +196,6 @@ https://img.shields.io/badge/Stay-Ethical-green
 https://img.shields.io/badge/White--Hat-Only-blue
 
 </div>
-```
-
-Short Version (For GitHub Repo Description):
-
-```
-🔍 FT OSINT Tool - Advanced Instagram Intelligence Suite
-
-A cyberpunk-themed OSINT tool for Android/Termux that combines:
-• Toutatis for phone/email extraction
-• Instaloader for profile metadata  
-• Custom scrapers for enhanced data
-• Beautiful HTML reports with dark theme
-• Encrypted credential storage
-• Phone number tracking & analysis
-
-Perfect for security researchers, pentesters, and OSINT enthusiasts.
 ```
 
 Hashtags (For More Visibility):
