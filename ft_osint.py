@@ -1722,8 +1722,8 @@ def print_banner():
     # Cyberpunk style subtitle
     subtitle_lines = [
         "╔═══════════════════════════════════════════════════╗",
-        "║         C Y B E R P U N K   O S I N T            ║",
-        "║         Advanced Instagram Analysis              ║",
+        "║         C Y B E R P U N K   O S I N T             ║",
+        "║         Advanced Instagram Analysis               ║",
         "╚═══════════════════════════════════════════════════╝"
     ]
     
