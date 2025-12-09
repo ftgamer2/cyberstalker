@@ -1,119 +1,118 @@
-🔍 FT OSINT — Advanced Instagram Intelligence Tool
+🔍 FT OSINT — CyberStalker
 
-By: FTGAMERV2
-A lightweight, cyberpunk-styled OSINT suite for Android/Termux.
-Fast. Clean. Automated. Ethical.
+Instagram OSINT Tool for Termux/Android
+By FTGAMERV2
+
+A fast, offline, multi-source Instagram intelligence tool built for security researchers & OSINT learners.
+Generates clean cyberpunk-style HTML reports with metadata, contact info, and analysis.
 
 
 ---
 
 ⚡ Features
 
-🔗 Multi-source Instagram intelligence (Toutatis + Instaloader + Custom API)
+Multi-source IG data (Toutatis + Instaloader)
 
-🎨 Cyberpunk HTML reports (mobile-friendly, animations)
+Cyberpunk HTML reports (mobile-friendly)
 
-🔐 Encrypted credential storage (AES-256)
+Phone number metadata lookup
 
-🛰️ Phone number lookup (carrier, region, timezone)
+AES-256 encrypted credentials
 
-📥 Profile picture + metadata extraction
+Works fully offline on Android/Termux
 
-📊 Data quality scoring + analytics
-
-📱 100% Termux/Android support
+Low resource usage
 
 
 
 ---
 
-🎮 Quick Overview
+🚀 Getting Started
 
-1. Instagram Analysis → Full OSINT scan
-2. Phone Tracker      → Number metadata
-3. Settings           → Credentials & config
+Installation
 
-What You Get:
+pkg install git python -y
+git clone https://github.com/ftgamer2/cyberstalker
+cd cyberstalker
+pip install -r requirements.txt
 
-👤 Username, name, bio, ID  
-📈 Followers, following, posts  
-📞 Email & phone (Toutatis)  
-🗂️ Join date, account age  
+Run
+
+python ft_osint.py
+
+
+---
+
+🎯 What You Can Extract
+
+👤 Username, full name, bio, ID  
+📈 Followers / Following / Posts  
+📞 Emails & phone numbers (when available)  
 🖼️ Profile picture download  
+📊 Account age & metadata  
 ⚡ Data quality score
 
 
 ---
 
-🧪 Sample Report (HTML)
-
-📊 FT OSINT Report - @target
-│👤 Basic Info
-│📈 Followers / Following
-│📞 Email & Phone
-└⚡ Data Quality: Excellent (92%)
-
-
----
-
-🛡️ Legal Notice
+🛡️ Legal & Ethical Use
 
 Allowed:
-✔ Security research
-✔ Educational use
+✔ Education & research
 ✔ Your own accounts
 ✔ Authorized pentesting
 
 Not Allowed:
 ❌ Unauthorized investigation
-❌ Harassment/stalking
-❌ Illegal activity
+❌ Harassment or stalking
+❌ Any illegal activity
 
-> FT OSINT is for educational use only. Use responsibly.
+> This tool is for educational use only.
+You are responsible for how you use it.
 
 
 
 
 ---
 
-🐛 Common Issues
+🐛 Troubleshooting
 
 Missing module:
 
 pip install module_name
 
-Toutatis error:
+Toutatis not working:
 
 pip install toutatis
 
-Slow scan:
-Use only Instaloader or only Toutatis.
+Slow performance:
+Use only one engine (Instaloader or Toutatis) in settings.
 
 
 ---
 
-🤝 Contribute
+🤝 Contributing
 
-1. Fork repo
-
-
-2. Create branch
+1. Fork the repo
 
 
-3. Commit changes
+2. Create a feature branch
 
 
-4. Submit PR
+3. Commit your changes
+
+
+4. Submit a pull request
 
 
 
-Open for contributions:
+Looking for help in:
 
 More platforms (Twitter, Facebook)
 
 Better error handling
 
-More export formats
+New export formats
 
 GUI version
 
@@ -124,7 +123,7 @@ GUI version
 📞 Contact
 
 Email: noobgamingv40@gmail.com
-⭐ Star the repo if it helped you!
+⭐ Star this repo if it helped you!
 
 
 ---
@@ -135,9 +134,3 @@ Email: noobgamingv40@gmail.com
 <img src="https://img.shields.io/badge/White--Hat-Only-blue">
 
 </div>
-
----
-
-🔖 Hashtags
-
-#OSINT #Instagram #CyberSecurity #Termux #Android #Python #InfoSec #HackingTools
