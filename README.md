@@ -27,9 +27,7 @@ Low resource usage
 
 ---
 
-🚀 Getting Started
-
-Installation
+🚀 Installation (Recommended)
 
 pkg install git python -y
 git clone https://github.com/ftgamer2/cyberstalker
