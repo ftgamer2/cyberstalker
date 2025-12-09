@@ -4,10 +4,10 @@ clear
 echo ""
 echo "███████╗████████╗"
 echo "██╔════╝╚══██╔══╝"
-echo "████╗            ██║   "
-echo "██╔══╝          ██║   "
-echo "██║                ██║   "
-echo "╚═╝                ╚═╝   "
+echo "████╗      ██║   "
+echo "██╔═╝      ██║   "
+echo "██║        ██║   "
+echo "╚═╝        ╚═╝   "
 echo ""
 echo "🔧 Installing CyberStalker v2.0..."
 echo ""
@@ -18,11 +18,20 @@ pkg update -y && pkg upgrade -y
 # Install Python
 pkg install python -y
 pkg install python-pip -y
-
+pkg install toutatis
 # Install dependencies
 echo "📦 Installing Python packages..."
-pip install --upgrade pip
-pip install instagrapi instaloader phonenumbers cryptography requests
+# Try installing numpy first (this is what's causing the hang)
+pkg install python-numpy -y
+
+# Then try instagrapi again
+pip install instagrapi --no-deps
+pip install PySocks 
+pip install instaloader phonenumbers cryptography requests
+
+# fix toutaris issue
+sed -i 's/infos\["total_igtv_videos"\]/infos.get("total_igtv_videos", 0)/' \
+/data/data/com.termux/files/usr/lib/python3.12/site-packages/toutatis/core.py
 
 # Create app directory
 mkdir -p ~/.cyberstalker
