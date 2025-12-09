@@ -1,0 +1,6 @@
+instagrapi>=1.16.22
+instaloader>=4.10.1
+phonenumbers>=8.13.11
+cryptography>=41.0.7
+requests>=2.31.0
+colorama>=0.4.6
