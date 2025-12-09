@@ -29,7 +29,9 @@ Low resource usage
 
 🚀 Installation (Recommended)
 
-```bash pkg install git python -y git clone https://github.com/ftgamer2/cyberstalker cd cyberstalker chmod +x install.sh ./install.sh ```
+```
+pkg install git python -y && git clone https://github.com/ftgamer2/cyberstalker && cd cyberstalker && chmod +x install.sh && ./install.sh
+```
 
 ---
 
