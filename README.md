@@ -1,218 +1,142 @@
-🔍 FT OSINT Tool - Advanced Instagram Intelligence Suite
+🔍 FT OSINT — Advanced Instagram Intelligence Tool
 
-A cyberpunk-themed OSINT tool for Android/Termux that combines:
-• Toutatis for phone/email extraction
-• Instaloader for profile metadata  
-• Custom scrapers for enhanced data
-• Beautiful HTML reports with dark theme
-• Encrypted credential storage
-• Phone number tracking & analysis
+By: FTGAMERV2
+A lightweight, cyberpunk-styled OSINT suite for Android/Termux.
+Fast. Clean. Automated. Ethical.
 
-Perfect for security researchers, pentesters, and OSINT enthusiasts.
 
 ---
 
-🎮 Usage Guide
+⚡ Features
 
-Main Menu Options:
+🔗 Multi-source Instagram intelligence (Toutatis + Instaloader + Custom API)
 
-1. Instagram Analysis - Full profile investigation
-2. Phone Tracker - Carrier, location, timezone analysis
-3. Settings - Manage credentials & configuration
+🎨 Cyberpunk HTML reports (mobile-friendly, animations)
 
-What Data You Get:
+🔐 Encrypted credential storage (AES-256)
 
-```
-✅ Profile Info: Username, ID, bio, followers, following
-✅ Contact Data: Email, phone numbers (via Toutatis)
-✅ Metadata: Join date, account age, verification status
-✅ Media Info: Post count, profile picture
-✅ Analysis: Data quality score, completeness report
-```
+🛰️ Phone number lookup (carrier, region, timezone)
 
----
+📥 Profile picture + metadata extraction
 
-📁 Generated Reports
+📊 Data quality scoring + analytics
 
-HTML Report Features:
+📱 100% Termux/Android support
 
-· Cyberpunk-themed design with animations
-· Responsive layout for mobile/desktop
-· Data quality indicators
-· Source attribution
-· Downloadable profile pictures
 
-Sample Output:
-
-```html
-📊 FT OSINT Report - @target_username
-├── 👤 Basic Info
-│   ├── Username: @target_username
-│   ├── Full Name: Target Name
-│   └── User ID: 123456789
-├── 📈 Statistics
-│   ├── Followers: 10,234
-│   ├── Following: 345
-│   └── Posts: 567
-├── 📞 Contact Info
-│   ├── Email: target@email.com
-│   └── Phone: +91 XXXXX-XXXXX
-└── ⚡ Data Quality: Excellent (92%)
-```
 
 ---
 
-🛡️ Legal & Ethical Use
+🎮 Quick Overview
 
-✅ Allowed Uses:
+1. Instagram Analysis → Full OSINT scan
+2. Phone Tracker      → Number metadata
+3. Settings           → Credentials & config
 
-· Educational purposes
-· Security research
-· Personal account analysis (your own accounts)
-· Authorized penetration testing
+What You Get:
 
-❌ Prohibited Uses:
+👤 Username, name, bio, ID  
+📈 Followers, following, posts  
+📞 Email & phone (Toutatis)  
+🗂️ Join date, account age  
+🖼️ Profile picture download  
+⚡ Data quality score
 
-· Unauthorized access to accounts
-· Harassment or stalking
-· Illegal surveillance
-· Violating platform terms of service
-
-⚠️ Disclaimer:
-
-This tool is for educational purposes only. The developers are not responsible for any misuse. Always ensure you have proper authorization before investigating any account.
 
 ---
 
-🎯 Why Choose FT OSINT?
+🧪 Sample Report (HTML)
 
-Feature FT OSINT Other Tools
-Android/Termux Support ✅ Native ❌ Limited
-HTML Reports ✅ Cyberpunk Theme ❌ Basic
-Multiple Sources ✅ 3+ Engines ❌ Single
-Offline Operation ✅ 100% ❌ Cloud-based
-Credential Encryption ✅ AES-256 ❌ Plain Text
+📊 FT OSINT Report - @target
+│👤 Basic Info
+│📈 Followers / Following
+│📞 Email & Phone
+└⚡ Data Quality: Excellent (92%)
 
----
-
-📈 Performance Metrics
-
-· Speed: 10-30 seconds per scan
-· Accuracy: 85-95% based on account privacy
-· Success Rate: 90%+ for public accounts
-· Resource Usage: Low memory footprint (<50MB)
 
 ---
 
-🐛 Common Issues & Fixes
+🛡️ Legal Notice
 
-Issue 1: ModuleNotFoundError
+Allowed:
+✔ Security research
+✔ Educational use
+✔ Your own accounts
+✔ Authorized pentesting
 
-```bash
-# Fix: Install missing module
-pip install [module_name]
-```
+Not Allowed:
+❌ Unauthorized investigation
+❌ Harassment/stalking
+❌ Illegal activity
 
-Issue 2: Toutatis not working
+> FT OSINT is for educational use only. Use responsibly.
 
-```bash
-# Fix: Install Toutatis separately
+
+
+
+---
+
+🐛 Common Issues
+
+Missing module:
+
+pip install module_name
+
+Toutatis error:
+
 pip install toutatis
-# Or use manual paste mode
-```
 
-Issue 3: Slow performance
+Slow scan:
+Use only Instaloader or only Toutatis.
 
-```bash
-# Fix: Skip optional modules
-# Use only Instaloader or only Toutatis
-```
 
 ---
 
-🤝 Contributing
+🤝 Contribute
 
-Want to improve FT OSINT? Here's how:
+1. Fork repo
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
 
-Areas Needing Improvement:
+2. Create branch
 
-· Additional platform support (Twitter, Facebook)
-· Better error handling
-· More export formats (PDF, CSV)
-· GUI interface
 
----
+3. Commit changes
 
-📞 Support & Community
 
-Need Help?
+4. Submit PR
 
-1. Check the Issues section
-2. Read the troubleshooting guide
 
-Found a Bug?
 
-Please report with:
+Open for contributions:
 
-· Error message
-· Steps to reproduce
-· Screenshot if possible
+More platforms (Twitter, Facebook)
+
+Better error handling
+
+More export formats
+
+GUI version
+
+
 
 ---
 
-✨ Credits & Acknowledgments
+📞 Contact
 
-· Toutatis - Advanced data extraction
-· Instaloader - Instagram metadata
-· Phonenumbers - Phone analysis
-· Cryptography - Secure storage
+Email: noobgamingv40@gmail.com
+⭐ Star the repo if it helped you!
 
----
-
-📜 License
-
-MIT License - See LICENSE file for details.
 
 ---
 
-🌐 Connect With Us
-
-noobgamingv40@gmail.com
-
-⭐ Star this repo if you find it useful!
-
----
-
-<div align="center">
-
-Made with ❤️ for the OSINT Community
-
-https://img.shields.io/badge/Stay-Ethical-green
-https://img.shields.io/badge/White--Hat-Only-blue
+<div align="center">Made with ❤️ by FTGAMERV2
+<br>
+<img src="https://img.shields.io/badge/Stay-Ethical-green">
+<img src="https://img.shields.io/badge/White--Hat-Only-blue">
 
 </div>
-```
+---
 
-Hashtags (For More Visibility):
+🔖 Hashtags
 
-```
-#OSINT #Instagram #Reconnaissance #CyberSecurity #Termux #Android #Python #OpenSource #InfoSec #Privacy #DataAnalysis #SocialMedia #Investigation #DigitalForensics #HackingTools #SecurityResearch
-```
-
-Features List (Bullet Points):
-
-· ✅ Multi-source data collection (Toutatis + Instaloader + Custom)
-· ✅ Cyberpunk-themed interface with animations
-· ✅ HTML reports with professional design
-· ✅ Phone number analysis (carrier, location, timezone)
-· ✅ Encrypted credential storage (AES-256)
-· ✅ Optimized for Termux/Android
-· ✅ 100% offline operation
-· ✅ Profile picture downloading
-· ✅ Data quality scoring
-· ✅ Cross-platform support
+#OSINT #Instagram #CyberSecurity #Termux #Android #Python #InfoSec #HackingTools
