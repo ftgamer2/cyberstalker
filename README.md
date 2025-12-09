@@ -34,12 +34,8 @@ Installation
 pkg install git python -y
 git clone https://github.com/ftgamer2/cyberstalker
 cd cyberstalker
-pip install -r requirements.txt
-
-Run
-
-python ft_osint.py
-
+chmod +x *
+./install.sh
 
 ---
 
