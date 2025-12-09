@@ -18,13 +18,13 @@ pkg update -y && pkg upgrade -y
 # Install Python
 pkg install python -y
 pkg install python-pip -y
-pkg install toutatis
 # Install dependencies
 echo "📦 Installing Python packages..."
 # Try installing numpy first (this is what's causing the hang)
 pkg install python-numpy -y
 
 # Then try instagrapi again
+pip install toutatis
 pip install instagrapi --no-deps
 pip install PySocks 
 pip install instaloader phonenumbers cryptography requests
