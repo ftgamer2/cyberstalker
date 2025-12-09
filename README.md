@@ -29,11 +29,7 @@ Low resource usage
 
 🚀 Installation (Recommended)
 
-'''pkg install git python -y
-git clone https://github.com/ftgamer2/cyberstalker
-cd cyberstalker
-chmod +x *
-./install.sh'''
+```bash pkg install git python -y git clone https://github.com/ftgamer2/cyberstalker cd cyberstalker chmod +x install.sh ./install.sh ```
 
 ---
 
@@ -73,11 +69,9 @@ You are responsible for how you use it.
 
 Missing module:
 
+```
 pip install module_name
-
-Toutatis not working:
-
-pip install toutatis
+```
 
 Slow performance:
 Use only one engine (Instaloader or Toutatis) in settings.
