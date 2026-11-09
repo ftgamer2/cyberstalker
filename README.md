@@ -1,126 +1,62 @@
-🔍 FT OSINT — CyberStalker
+# CyberStalker
 
-Instagram OSINT Tool for Termux/Android
-By FTGAMERV2
+**LYNX · FT OSINT** · Instagram OSINT for Termux/Android
 
-A fast, offline, multi-source Instagram intelligence tool built for security researchers & OSINT learners.
-Generates clean cyberpunk-style HTML reports with metadata, contact info, and analysis.
+A multi-source Instagram intelligence utility for security research and OSINT learning. It can generate mobile-friendly HTML reports with metadata and analysis. Network-based lookups depend on the upstream sources being available.
 
+## Features
 
----
+- Multi-source Instagram data (Toutatis + Instaloader)
+- Mobile-friendly cyberpunk HTML reports
+- Phone-number metadata lookup
+- AES-256 encrypted credentials
+- Termux/Android workflow with low resource usage
 
-⚡ Features
+## Installation
 
-Multi-source IG data (Toutatis + Instaloader)
-
-Cyberpunk HTML reports (mobile-friendly)
-
-Phone number metadata lookup
-
-AES-256 encrypted credentials
-
-Works fully offline on Android/Termux
-
-Low resource usage
-
-
-
----
-
-🚀 Installation (Recommended)
-
-```
+```bash
 pkg install git python -y && git clone https://github.com/ftgamer2/cyberstalker && cd cyberstalker && chmod +x install.sh && ./install.sh
 ```
 
----
+## Data available
 
-🎯 What You Can Extract
+Depending on the upstream sources and the account, reports may include:
 
-👤 Username, full name, bio, ID  
-📈 Followers / Following / Posts  
-📞 Emails & phone numbers (when available)  
-🖼️ Profile picture download  
-📊 Account age & metadata  
-⚡ Data quality score
+- Username, full name, bio, and ID
+- Followers, following, and post counts
+- Email addresses and phone numbers when available
+- Profile picture download
+- Account age and metadata
+- Data quality score
 
+## Legal and ethical use
 
----
+Use this tool only for education, research, your own accounts, or explicitly authorized security testing. Do not use it for unauthorized investigation, harassment, or illegal activity. You are responsible for how you use it.
 
-🛡️ Legal & Ethical Use
+## Troubleshooting
 
-Allowed:
-✔ Education & research
-✔ Your own accounts
-✔ Authorized pentesting
+- **Missing module:** install the named dependency with pip install module_name.
+- **Slow performance:** use only one engine (Instaloader or Toutatis) in settings.
 
-Not Allowed:
-❌ Unauthorized investigation
-❌ Harassment or stalking
-❌ Any illegal activity
+## Contributing
 
-> This tool is for educational use only.
-You are responsible for how you use it.
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Submit a pull request.
 
+Areas noted for possible contributions: additional platforms, error handling, export formats, and a GUI.
 
+## Contact
 
+Email: [noobgamingv40@gmail.com](mailto:noobgamingv40@gmail.com)
 
----
+If this project is useful to you, consider starring the repository.
 
-🐛 Troubleshooting
+<div align="center">
 
-Missing module:
+**LYNX · FTGAMERV2**
 
-```
-pip install module_name
-```
-
-Slow performance:
-Use only one engine (Instaloader or Toutatis) in settings.
-
-
----
-
-🤝 Contributing
-
-1. Fork the repo
-
-
-2. Create a feature branch
-
-
-3. Commit your changes
-
-
-4. Submit a pull request
-
-
-
-Looking for help in:
-
-More platforms (Twitter, Facebook)
-
-Better error handling
-
-New export formats
-
-GUI version
-
-
-
----
-
-📞 Contact
-
-Email: noobgamingv40@gmail.com
-⭐ Star this repo if it helped you!
-
-
----
-
-<div align="center">Made with ❤️ by FTGAMERV2
-<br>
-<img src="https://img.shields.io/badge/Stay-Ethical-green">
-<img src="https://img.shields.io/badge/White--Hat-Only-blue">
+![Stay Ethical](https://img.shields.io/badge/Stay-Ethical-green?style=flat-square) ![White-Hat Only](https://img.shields.io/badge/White--Hat-Only-blue?style=flat-square)
 
 </div>
